@@ -10,6 +10,7 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:dashboard":"cypress run --record --key 7fcc7518-31eb-4bc1-9335-c8bfde14fbcb"
+  
     },
   "author": "",
   "license": "ISC"
