@@ -5,6 +5,6 @@ describe('Demo Submit Form', () => {
 		cy.get('#tried-test-cafe').click()
 		cy.get('#submit-button').click()
 		//cy.get('[data-testid=thank-you-header]').contains('Thank you')
-		cy.get('#article-header').contains('Welcome')
+		cy.get('#article-header').contains('Welcome All')
 	})
 })
