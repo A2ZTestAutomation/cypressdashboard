@@ -10,7 +10,7 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:run" : "cypress run",
-    "cy:dashboard":"cypress run --record --key 7fcc7518-31eb-4bc1-9335-c8bfde14fbcb"
+    "cy:dashboard":"cypress run --record --key ec6f3da9-a42a-4d0e-88cb-5724e1187270"
   
     },
   "author": "",
