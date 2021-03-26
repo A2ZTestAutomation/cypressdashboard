@@ -8,7 +8,7 @@ describe("Testing login functionality", () => {
         cy.get(".radius").click()
         //cy.url().should("include", "secure")
         //To make it fail
-        cy.url().should("include", "success")
+        cy.url().should("include", "Login success")
     })
     it("Login Failure-Username", {
         "retries": {
