@@ -6,9 +6,9 @@ describe("Testing login functionality", () => {
         cy.get("#username").type("tomsmith")
         cy.get("#password").type("SuperSecretPassword!")
         cy.get(".radius").click()
-        //cy.url().should("include", "secure")
+        cy.url().should("include", "secure")
         //To make it fail
-        cy.url().should("include", "Login success")
+        //cy.url().should("include", "Login success")
     })
     it("Login Failure-Username", {
         "retries": {
