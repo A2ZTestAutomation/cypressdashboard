@@ -1,8 +1,4 @@
 {
-    "projectId": "z4mot3",
-    "retries" : {
-            "runMode" : 2,
-            "openMode" : 2
-    }
-
+    "projectId": "z4mot3"
+   
 }
