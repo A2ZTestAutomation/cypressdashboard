@@ -1,5 +1,4 @@
-{
-  "name": "cypressdashboard",
+ "name": "cypressdashboard",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +10,7 @@
     "cy:run": "cypress run",
     "cy:dashboard": "cypress run --record --key 692d329e-44d1-4de6-b645-83aa342050ef"
   },
+
   "author": "",
   "license": "ISC"
 }
