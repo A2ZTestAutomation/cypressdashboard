@@ -1,7 +1,15 @@
 /// <reference types='cypress' />
 
-describe("Testing login functionality", () => {
-    it.only("Login success", () => {
+describe("Testing login functionality", 
+    // {
+    // "retries": {
+    //     runMode: 2,
+    //     openMode : 2
+    // }
+    // }, 
+    () => {
+    
+    it("Login success", () => {
         cy.visit("https://the-internet.herokuapp.com/login")
         cy.get("#username").type("tomsmith")
         cy.get("#password").type("SuperSecretPassword!")
@@ -10,14 +18,7 @@ describe("Testing login functionality", () => {
         //To make it fail
         cy.url().should("include", "Login success")
     })
-    it("Login Failure-Username",
-        // {
-        // "retries": {
-        //     runMode: 2,
-        //     openMode : 2
-        // }
-        // },
-        () => {
+    it.only("Login Failure-Username", () => {
         cy.visit("https://the-internet.herokuapp.com/login")
         cy.get("#username").type("tom")
         cy.get("#password").type("SuperSecretPassword!")
